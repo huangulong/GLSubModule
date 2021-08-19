@@ -24,7 +24,7 @@ DerivedData/
 
 ## Obj-C/Swift specific
 *.hmap
-
+.DS_Store
 ## App packaging
 *.ipa
 *.dSYM.zip
@@ -64,5 +64,5 @@ fastlane/test_output
 #
 # After new code Injection tools there's a generated folder /iOSInjectionProject
 # https://github.com/johnno1962/injectionforxcode
-
+Pods/
 iOSInjectionProject/

@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		001EB38E26CE2BA90044F5F7 /* DeptListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001EB38D26CE2BA90044F5F7 /* DeptListViewController.swift */; };
+		00A538C226CCDFD100C651EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A538C126CCDFD100C651EE /* AppDelegate.swift */; };
+		00A538C626CCDFD100C651EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A538C526CCDFD100C651EE /* ViewController.swift */; };
+		00A538C926CCDFD100C651EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00A538C726CCDFD100C651EE /* Main.storyboard */; };
+		00A538CC26CCDFD100C651EE /* GLSubModule.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 00A538CA26CCDFD100C651EE /* GLSubModule.xcdatamodeld */; };
+		00A538CE26CCDFD400C651EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00A538CD26CCDFD400C651EE /* Assets.xcassets */; };
+		00A538D126CCDFD400C651EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00A538CF26CCDFD400C651EE /* LaunchScreen.storyboard */; };
+		00A538D926CCE26F00C651EE /* AddUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A538D826CCE26F00C651EE /* AddUserViewController.swift */; };
+		00A538DB26CCEBFB00C651EE /* GLBottomLineLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A538DA26CCEBFB00C651EE /* GLBottomLineLabel.swift */; };
+		00A538DF26CCF4FF00C651EE /* GLKeyPickerBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A538DE26CCF4FF00C651EE /* GLKeyPickerBottomView.m */; };
+		00A538E526CD01F500C651EE /* GLCoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A538E426CD01F500C651EE /* GLCoreDataManager.swift */; };
+		DB32EF00789F8F562F56CE22 /* Pods_GLSubModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E01B8CFBACD4B71A7F29B05 /* Pods_GLSubModule.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		001EB38D26CE2BA90044F5F7 /* DeptListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeptListViewController.swift; sourceTree = "<group>"; };
+		00A538BE26CCDFD100C651EE /* GLSubModule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GLSubModule.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00A538C126CCDFD100C651EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		00A538C526CCDFD100C651EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		00A538C826CCDFD100C651EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00A538CB26CCDFD100C651EE /* GLSubModule.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GLSubModule.xcdatamodel; sourceTree = "<group>"; };
+		00A538CD26CCDFD400C651EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00A538D026CCDFD400C651EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00A538D226CCDFD400C651EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00A538D826CCE26F00C651EE /* AddUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUserViewController.swift; sourceTree = "<group>"; };
+		00A538DA26CCEBFB00C651EE /* GLBottomLineLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GLBottomLineLabel.swift; sourceTree = "<group>"; };
+		00A538DD26CCF4FF00C651EE /* GLKeyPickerBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLKeyPickerBottomView.h; sourceTree = "<group>"; };
+		00A538DE26CCF4FF00C651EE /* GLKeyPickerBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLKeyPickerBottomView.m; sourceTree = "<group>"; };
+		00A538E326CCFAF000C651EE /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		00A538E426CD01F500C651EE /* GLCoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GLCoreDataManager.swift; sourceTree = "<group>"; };
+		0BC11581DB931B83296612CA /* Pods-GLSubModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GLSubModule.release.xcconfig"; path = "Target Support Files/Pods-GLSubModule/Pods-GLSubModule.release.xcconfig"; sourceTree = "<group>"; };
+		0E01B8CFBACD4B71A7F29B05 /* Pods_GLSubModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GLSubModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B48827A3EAE41C12CC9F29E0 /* Pods-GLSubModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GLSubModule.debug.xcconfig"; path = "Target Support Files/Pods-GLSubModule/Pods-GLSubModule.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00A538BB26CCDFD100C651EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB32EF00789F8F562F56CE22 /* Pods_GLSubModule.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00A538B526CCDFD100C651EE = {
+			isa = PBXGroup;
+			children = (
+				00A538C026CCDFD100C651EE /* GLSubModule */,
+				00A538BF26CCDFD100C651EE /* Products */,
+				CEFEFC89D71C8EE95F841C39 /* Pods */,
+				B705E88A25A8B6F21544C5DC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		00A538BF26CCDFD100C651EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00A538BE26CCDFD100C651EE /* GLSubModule.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00A538C026CCDFD100C651EE /* GLSubModule */ = {
+			isa = PBXGroup;
+			children = (
+				00A538DC26CCF4FF00C651EE /* GLKeyPicker */,
+				00A538C126CCDFD100C651EE /* AppDelegate.swift */,
+				00A538C526CCDFD100C651EE /* ViewController.swift */,
+				00A538C726CCDFD100C651EE /* Main.storyboard */,
+				00A538CD26CCDFD400C651EE /* Assets.xcassets */,
+				00A538CF26CCDFD400C651EE /* LaunchScreen.storyboard */,
+				00A538D226CCDFD400C651EE /* Info.plist */,
+				00A538CA26CCDFD100C651EE /* GLSubModule.xcdatamodeld */,
+				00A538D826CCE26F00C651EE /* AddUserViewController.swift */,
+				00A538E326CCFAF000C651EE /* Bridging-Header.h */,
+				00A538DA26CCEBFB00C651EE /* GLBottomLineLabel.swift */,
+				00A538E426CD01F500C651EE /* GLCoreDataManager.swift */,
+				001EB38D26CE2BA90044F5F7 /* DeptListViewController.swift */,
+			);
+			path = GLSubModule;
+			sourceTree = "<group>";
+		};
+		00A538DC26CCF4FF00C651EE /* GLKeyPicker */ = {
+			isa = PBXGroup;
+			children = (
+				00A538DD26CCF4FF00C651EE /* GLKeyPickerBottomView.h */,
+				00A538DE26CCF4FF00C651EE /* GLKeyPickerBottomView.m */,
+			);
+			name = GLKeyPicker;
+			path = HGLKeyPicker/GLKeyPicker;
+			sourceTree = SOURCE_ROOT;
+		};
+		B705E88A25A8B6F21544C5DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E01B8CFBACD4B71A7F29B05 /* Pods_GLSubModule.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEFEFC89D71C8EE95F841C39 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B48827A3EAE41C12CC9F29E0 /* Pods-GLSubModule.debug.xcconfig */,
+				0BC11581DB931B83296612CA /* Pods-GLSubModule.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00A538BD26CCDFD100C651EE /* GLSubModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00A538D526CCDFD400C651EE /* Build configuration list for PBXNativeTarget "GLSubModule" */;
+			buildPhases = (
+				1FD366A554FB5E7DDC8833DB /* [CP] Check Pods Manifest.lock */,
+				00A538BA26CCDFD100C651EE /* Sources */,
+				00A538BB26CCDFD100C651EE /* Frameworks */,
+				00A538BC26CCDFD100C651EE /* Resources */,
+				0C59966D8154581E4324F022 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GLSubModule;
+			productName = GLSubModule;
+			productReference = 00A538BE26CCDFD100C651EE /* GLSubModule.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00A538B626CCDFD100C651EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					00A538BD26CCDFD100C651EE = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 00A538B926CCDFD100C651EE /* Build configuration list for PBXProject "GLSubModule" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00A538B526CCDFD100C651EE;
+			productRefGroup = 00A538BF26CCDFD100C651EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00A538BD26CCDFD100C651EE /* GLSubModule */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00A538BC26CCDFD100C651EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A538D126CCDFD400C651EE /* LaunchScreen.storyboard in Resources */,
+				00A538CE26CCDFD400C651EE /* Assets.xcassets in Resources */,
+				00A538C926CCDFD100C651EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C59966D8154581E4324F022 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GLSubModule/Pods-GLSubModule-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GLSubModule/Pods-GLSubModule-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GLSubModule/Pods-GLSubModule-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1FD366A554FB5E7DDC8833DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GLSubModule-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00A538BA26CCDFD100C651EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A538DF26CCF4FF00C651EE /* GLKeyPickerBottomView.m in Sources */,
+				00A538E526CD01F500C651EE /* GLCoreDataManager.swift in Sources */,
+				00A538C626CCDFD100C651EE /* ViewController.swift in Sources */,
+				00A538DB26CCEBFB00C651EE /* GLBottomLineLabel.swift in Sources */,
+				00A538D926CCE26F00C651EE /* AddUserViewController.swift in Sources */,
+				00A538C226CCDFD100C651EE /* AppDelegate.swift in Sources */,
+				00A538CC26CCDFD100C651EE /* GLSubModule.xcdatamodeld in Sources */,
+				001EB38E26CE2BA90044F5F7 /* DeptListViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		00A538C726CCDFD100C651EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00A538C826CCDFD100C651EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		00A538CF26CCDFD400C651EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00A538D026CCDFD400C651EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00A538D326CCDFD400C651EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		00A538D426CCDFD400C651EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00A538D626CCDFD400C651EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B48827A3EAE41C12CC9F29E0 /* Pods-GLSubModule.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GLSubModule/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.hgl.GLSubModule;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GLSubModule/Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00A538D726CCDFD400C651EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BC11581DB931B83296612CA /* Pods-GLSubModule.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GLSubModule/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.hgl.GLSubModule;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GLSubModule/Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00A538B926CCDFD100C651EE /* Build configuration list for PBXProject "GLSubModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00A538D326CCDFD400C651EE /* Debug */,
+				00A538D426CCDFD400C651EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00A538D526CCDFD400C651EE /* Build configuration list for PBXNativeTarget "GLSubModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00A538D626CCDFD400C651EE /* Debug */,
+				00A538D726CCDFD400C651EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		00A538CA26CCDFD100C651EE /* GLSubModule.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				00A538CB26CCDFD100C651EE /* GLSubModule.xcdatamodel */,
+			);
+			currentVersion = 00A538CB26CCDFD100C651EE /* GLSubModule.xcdatamodel */;
+			path = GLSubModule.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 00A538B626CCDFD100C651EE /* Project object */;
+}

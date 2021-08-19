@@ -1,0 +1,6 @@
+[submodule "GLPageScroll"]
+	path = GLPageScroll
+	url = git@github.com:huangulong/HGLPageScroll.git
+[submodule "HGLKeyPicker"]
+	path = HGLKeyPicker
+	url = git@github.com:huangulong/HGLKeyPicker.git
